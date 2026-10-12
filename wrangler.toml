@@ -1,0 +1,7 @@
+name = "styled-by-wilma"
+pages_build_output_dir = "dist"
+compatibility_date = "2024-01-01"
+
+[vars]
+# In Cloudflare Pages Dashboard, set GEMINI_API_KEY as an encrypted environment secret
+# Settings -> Environment Variables -> GEMINI_API_KEY

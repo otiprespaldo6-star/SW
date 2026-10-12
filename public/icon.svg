@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E7CF9B" />
+      <stop offset="50%" stop-color="#C5A059" />
+      <stop offset="100%" stop-color="#8E6A26" />
+    </linearGradient>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#24201D" />
+      <stop offset="100%" stop-color="#141211" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+  <circle cx="256" cy="256" r="210" fill="none" stroke="url(#goldGrad)" stroke-width="3" stroke-opacity="0.4" />
+  <circle cx="256" cy="256" r="200" fill="none" stroke="#C86D51" stroke-width="1.5" stroke-opacity="0.6" stroke-dasharray="8 6" />
+  <text x="256" y="315" font-family="'Playfair Display', Georgia, serif" font-size="200" font-weight="600" font-style="italic" fill="url(#goldGrad)" text-anchor="middle">W</text>
+  <text x="256" y="375" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-size="22" font-weight="600" letter-spacing="9" fill="#EAE3D9" text-anchor="middle">STYLED BY WILMA</text>
+  <circle cx="256" cy="140" r="6" fill="#C86D51" />
+</svg>

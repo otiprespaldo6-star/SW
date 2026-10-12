@@ -1,0 +1,8 @@
+{
+  "name": "Styled By Wilma",
+  "description": "Asesora de imagen personal con IA que aprende tu Style DNA (colores, proporciones, estilo y armario) para ayudarte a vestirte y comprar mejor.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,40 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Playfair Display", "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-display: "Cormorant Garamond", Georgia, serif;
+
+  --color-cream: #FBF9F5;
+  --color-sand: #F4EFE6;
+  --color-warm-beige: #EBE3D5;
+  --color-gold: #C5A059;
+  --color-gold-light: #E7CF9B;
+  --color-terracotta: #C86D51;
+  --color-terracotta-dark: #A44C32;
+  --color-noir: #1C1917;
+}
+
+@layer base {
+  * {
+    border-color: #E7DFD5;
+  }
+  body {
+    font-family: var(--font-sans);
+    -webkit-tap-highlight-color: transparent;
+    background-color: #FBF9F5;
+    color: #1C1917;
+  }
+  h1, h2, h3, .font-serif-luxury {
+    font-family: var(--font-serif);
+  }
+}
+
+/* Custom smooth scrollbar & safe-area padding for mobile */
+.pb-safe {
+  padding-bottom: env(safe-area-inset-bottom, 1rem);
+}
+.pt-safe {
+  padding-top: env(safe-area-inset-top, 0.75rem);
+}
+
